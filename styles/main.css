@@ -1,0 +1,108 @@
+.background{
+    background-color: #5cb1f7;
+}
+
+.fishList{
+    color: black;
+    display: flex;
+    flex-direction: column wrap;
+}
+
+.fishList__header{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    height: 100px;
+    flex-basis: 100%;
+}
+
+.fishList__details{
+    background-color: #7290e0;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    height: 500px;
+}
+
+.fishList__details-title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.fishList__details-img{
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+}
+
+.fishList__care{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    padding: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.fishList__care-header{
+    display: flex;
+    justify-content: center;
+}
+
+.fishList__care-tips{
+    display: block;
+}
+
+.locations{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.locations__tips{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.locations__tips-header{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.locations__list{
+    display: flex;
+    border: 1px solid black;
+    flex-flow: row;
+}
+
+.locations__list-header{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 130px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.locations__list-img{
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+}
+
+.locations__list-details{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+}
