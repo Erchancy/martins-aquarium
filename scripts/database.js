@@ -11,7 +11,7 @@ const database = {
         {
             image: "https://cdn.the-scientist.com/assets/articleNo/70691/aImg/48362/freshwater-angelfish-800-o.jpg",
             species: "Pterophyllum Scalare",
-            length: "3.3in",
+            length: "3in",
             name: "Rory",
             harvest: "Manaus, Brazil",
             diet: "Omnivorous, small worms and crustaceans"
